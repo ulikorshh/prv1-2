@@ -1,0 +1,120 @@
+html {
+    border: 5px #3c59a1 dotted;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px 1fr auto;
+    border-bottom: 5px #3c59a1 dashed;
+}
+
+a{
+    color: white;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #3c59a1;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    background-color: #3c59a1;
+    padding: 0.5rem 2rem;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: #f2f2f2;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.sec {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+h1{
+    font-size: 4rem;
+    margin: 0;
+}
+
+button{
+    font-size: 12px;
+    padding: 0.5rem;
+    background-color: #2a3348;
+    border: solid black;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.b {
+    background-color: #f2f2f2;
+    border: solid;
+    border-width: 1px;
+    font-size: 12px;
+    padding: 0.2rem 0.5rem;
+    transition: transform 0.3s;
+}
+
+.buk {
+    background-color: #f2f2f2;
+}
+
+.s {
+    color: black;
+}
+
+.b:hover{
+    transform: scale(1.1);
+}
+
+.br {
+    margin: 1.5rem;
+}
+
+div {
+    text-align: left;
+    margin-top: 10vh;
+}
+
+#bild {
+	object-fit: cover;
+	object-position: 100% 100%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    margin-top: 30vh;
+    font-size: smaller;
+}
+
+#hr {
+    margin-left: 80vw
+}

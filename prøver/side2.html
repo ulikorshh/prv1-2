@@ -1,0 +1,88 @@
+<link rel="stylesheet" href="../prøver/css.oppg2.css">
+
+<html>
+<header>
+    <nav>
+        <button><a href="../prøver/side1.html">Våre produkter</a>
+        </button>
+        <button><a href="../prøver/side3.html">Om oss</a>
+    </nav>
+
+    <section>
+        <h1>MinBBtikk</h1>
+            <h2>Min Bok Butikk</h2>
+    </section>
+
+    <nav class="h1"> <button><a href="../prøver/oppg2hs.html">Hovedside</a></button>
+    </nav>
+</header>
+
+<h2>Bestill her</h2>
+
+<div>
+    <form action="fil.html">
+        <div class="br">
+            <label>Navn: </label>
+            <input type="text" name="navn" placeholder="" required>
+        </div>
+    
+        <div class="br">
+            <label>Etternavn: </label>
+            <input type="text" name="enavn" placeholder="" required>
+        </div>
+
+        <div class="br">
+            <label for="">Adresse: </label>
+            <input type="text" name="navn" placeholder="" required>
+        </div>
+
+        <div class="br">
+            <label>Ønsket antall av BBMIW: </label>
+            <input type="number" name="antall" placeholder="" required min="0" max="10">
+        </div>
+
+        <div class="br">
+            <label>Ønsket antall av J- is for jaguar: </label>
+            <input type="number" name="antall" placeholder="" required min="0" max="10">
+        </div>
+
+        <div class="br">
+            <label>Ønsket antall av Bradley, his book: </label>
+            <input type="number" name="antall" placeholder="" required min="0" max="10">
+        </div>
+
+        <div class="br">
+            <label>Ønsket antall av Summer Beach: </label>
+            <input type="number" name="antall" placeholder="" required min="0" max="10">
+        </div>
+
+        <div class="br">
+            <label>Ønsket antall av Femme: </label>
+            <input type="number" name="antall" placeholder="" required min="0" max="10">
+        </div>
+    
+        <div class="br">
+            <select name="Velg">
+            <option value="">Velg metode for frakt:</option>
+            <option value="en">Bring</option>
+            <option value="to">Postkasse</option>
+            <option value="tre">Klikk og hent</option>
+            </select>
+    
+            <button class="b" type="submit">OK</button>
+        </div>
+
+        <label>Skriv inn din gmail for bekreftelse: </label>
+        <form action="https://formsubmit.co/your@gmail.com" method="POST">
+            <input type="gmail" name="gmail" required>
+            <button type="submit" class="buk">Send</button>
+       </form>
+       <input type="hidden" name="_autoresponse" value="">
+    
+        <div class="br">
+            <button class="buk" type="submit"><a href="../prøver/success.html" class="s">Bestill</a></button>
+        </div>
+    
+    </form>
+    </div>
+    </html>
